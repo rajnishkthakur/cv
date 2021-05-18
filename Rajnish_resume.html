@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rajnish's Resume!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Orbitron:wght@700&family=Tangerine:wght@700&family=Yesteryear&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="resume.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ropa+Sans&family=Teko&display=swap');
+/*font-family: 'Bebas Neue', cursive;
+font-family: 'Teko', sans-serif;*/
+body {
+  margin: 0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  background-color: #efefef;
+ 
+      
+}
+.main{
+  min-height:100vh;
+  overflow-y: none;
+
+}
+.header{
+  width: 100%;
+  background-image: url();
+  height: 200px;
+  display: block;
+  background-color: #33cccc;
+  position: relative;
+
+}
+
+.header h1{
+  color: white;
+  text-align: center;
+  padding-top: 28px;
+  font-family: 'Teko', sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+}
+
+.header .box{
+  width:650px;
+  min-height: 400px;
+  margin: 0 auto;
+  background-color: white;
+display: block;
+box-shadow: 0px 0px 15px #175a5a;
+}
+.header img{
+  width: 140px;
+  margin: 47px 15px 0px 45px;
+  box-shadow:  -10px  10px 10px rgba(0,0,0,0.22);
+  float: left;
+  background: transparent;
+        padding: 10px;
+        border: 1px solid #000000;
+
+
+}
+
+.details{
+  padding: 20px 0 0 18px;
+  margin-left:; 
+  float: left;
+  display: block;
+  width: 300px;
+}
+.hi{
+  font-family: 'Ropa Sans', sans-serif;
+  background-color: #33cccc;
+  margin: 0 auto;
+  padding: 5px 40px;
+  font-size: 20px;
+}
+.bio{
+  font-family: 'Bebas Neue', cursive;
+  
+}
+#para{
+  margin-top: -15px;
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 20px;
+  padding-bottom:8px;
+  border-bottom: 1px solid #9da0a7;
+
+}
+table th{
+  text-align: left;
+  padding: 4px 10px 4px 0px;
+  color: #333333; 
+}
+table td{
+  color: #9da0a7;
+
+}
+.social{
+  height: 70px;
+  background-color: #33cccc;
+  display: flex;
+  width: 650px;
+  bottom: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+i{
+  color: white;
+  margin: 15px auto;
+  display: block;
+}
+i:hover{
+  color: black;
+}
+@media screen and (max-width: 600px) {
+  .main{
+    height:700px;
+  }
+  .header .box{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .header img{
+ width: 80px;
+ margin: 0 auto;
+ margin-top: 40px;
+  }
+  .social{
+    width: 100%;
+  }
+}
+
+.first{
+  
+    
+    margin-left: 120px;
+    padding-left: 10px;
+width: 500px;
+display: block;
+float: left;
+}
+.first p{
+margin-top:160px;
+  color:#8d887e;
+  font-size: 70px;
+  font-family: 'Yesteryear', cursive;
+  padding-left: 0px; 
+  border-bottom: 2px solid black; 
+}
+
+.second{
+  background-color: #fefefe;
+  min-height: 400px;
+  margin: 40px;
+  text-align: center;
+display: flex;
+flex-direction: column;
+box-shadow: 0 10px 6px -6px #777;
+padding-bottom: 10px;
+padding-top: 20px;
+}
+.second h1{
+    font-family: 'Teko', sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+}
+.second p{
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 20px;
+  color: #686868;
+  padding: 0px 50px;
+}
+.skills{
+  text-align: center;
+  font-weight: 100;
+  font-family: 'Teko', sans-serif; 
+  font-size: 40px;
+}
+  .feature {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.feature1 {
+  max-width: calc(33% - 20px);
+  margin: 0 20px 0 0;
+}
+
+.feature1 .section1 {
+  margin-bottom: 0;
+}
+
+.feature1 p {
+  margin-top: 0.5rem;
+  text-align: justify;
+}
+
+.changelog {
+  background-color: #f8f8fa;
+  padding: 2rem 0;
+  text-align: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.changelog2 {
+  background-color: #f8f8fa;
+  padding: 2rem 0;
+  display: block;
+}
+.changelog1 {
+  background-color: #efefef;
+  padding: 2rem 0;
+  text-align: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.strength{
+  width: 700px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 600px) {
+.strength{
+  width: 90%;
+}}
+.wrapper{
+
+}
+.red{
+  padding: 20px;
+  display: inline-block;
+}
+
+.changelog__item {
+  display: flex;
+  text-align: left;
+}
+
+.changelog__meta {
+  flex-basis: 25%;
+}
+
+.changelog__meta small {
+  color: var(--primary-color-light);
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.ttl {
+  margin-bottom: 0;
+}
+
+.changelog__callout {
+  margin: 3rem auto 2rem auto;
+  text-align: center;
+}
+
+
+.ttlh{
+  font-family: 'Teko', sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+  
+  
+  .feature, .changelog__item {
+    flex-direction: column;
+  }
+  .feature1 {
+    max-width: 100%;
+    margin: 0;
+  }
+  .bar a{
+    font-size: 4vw;
+  }
+}
+
+
+/* Center website */
+.maina {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 180px;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+  </style>
+</head>
+<body>
+
+  <div class="main">
+  <div class="header">
+<h1>Curriculum Vitae</h1>
+<div class="box" data-aos="fade-up" data-aos-duration="1000">
+  <img src="https://nstidehradun.files.wordpress.com/2020/06/rajnish.jpg">
+  <div class="details">
+    <p> <span class="hi">Hi</span></p>
+    <p class="bio"><span style="font-size: 38px;">I'M &nbsp;</span> <span style="font-size: 40px; color: #2ea9a9;">RAJNISH K THAKUR</span></p>
+    <p id="para">SEO Expert, Techie </p>
+
+    <table style="width:100%">
+  <tr>
+    <th>AGE</th>
+    <td>20</td> 
+  </tr>
+  
+  
+  <tr>
+    <th>PHONE</th>
+    <td>+91-7634954600</td>
+  </tr>
+  <tr>
+    <th>EMAIL</th>
+    <td>rajnishkthakur@hotmail.com</td>
+  </tr>
+  <tr>
+    <th>ADDRESS</th>
+    <td>NSTI, DEHRADUN</td>
+  </tr>
+  <tr>
+    <th><span style="background-color: #33CCCC; font-size: 12px; color: white; padding: 5px 8px;">VACATION </span></th>
+    <td>N/A</td>
+  </tr>
+</table>
+<br>
+<hr width="50%">
+<br>
+  </div>
+  <div class="social">
+  <i class="fa fa-google-plus" style="font-size: 24px"></i>
+  <i class="fa fa-github" style="font-size: 24px"></i>
+  <i class="fa fa-linkedin" style="font-size: 24px"></i>
+  <i class="fa fa-reddit-alien" style="font-size: 24px"></i>
+</div>
+</div>
+</div>
+</div>
+<hr width="50%">
+
+
+<div class="second" data-aos="fade-up" data-aos-duration="1000">
+  <h1>About <span style="color:#33cccc;">Me</span></h1>
+  <p>Hi! I am <span style="font-weight: bold;">Rajnish K Thakur,</span> an SEO Expert, Content writer, web designer/developer focused on crafting great Content Presense as well as the design. Content writing, Designing and Coding have been my passion since the days I started working with computers but I found myself into Content Writing since 2017. I enjoy creating beautifully designed, intuitive content for social media and blogs.
+
+For over past 3 years, I have worked for some of the best digital agencies and wonderful clients to create some award winning works. And, I can make this happen for your business as well.</p> 
+<br>
+<hr width="50%">
+
+</div>
+<h1 class="skills" data-aos="fade-up" data-aos-duration="1000"> My <span style="color:#33cccc;">Skills</span></h1>
+<div class="feature" data-aos="fade-up" data-aos-duration="1000">
+        <div class="feature1">
+          <h3 class="section1">AI/ML</h3>
+          <p>Working on some deep learning concepts like object detection using pytorch. Trained several models using darknet-52 as backbone and now working on Resnet-50.</p>
+        </div>
+        <div class="feature1">
+          <h3 class="section1">SEO/SEM</h3>
+          <p>When we are done with content writing, then there comes SEO/SEM, and is at highest priority. I do onpage as well as off page SEO using White hat techniques.</p>
+        </div>
+        <div class="feature1">
+          <h3 class="section1">Content Writing</h3>
+          <p>It is said that "content is the king". Good content brings gratitude and grace. I write a pure Search engine optimized content for the web & Social Media.</p>
+        </div>
+        <div class="feature1">
+          <h3 class="section1">Web Designing</h3>
+          <p>I mostly focus on visual design of digital products. The design principles are what determine the look and feel of a site. I follow good Design practices.</p>
+        </div>
+        <div class="feature1">
+          <h3 class="section1">Web Development</h3>
+          <p>The web development industry is taking off. Standards are growing higher and more rigid. I am fully aware of it and keep myself changing with trends.</p>
+        </div>
+        <div class="feature1">
+          <h3 class="section1">Graphic Designing</h3>
+          <p>I have plenty of fun editing, designing, and stylizing my social media posts, blog & ad banners, cards etc. with Photoshop & Illustrator. </p>
+        </div>
+        <div class="feature1">
+          <h3 class="section1">Digital Marketing</h3>
+          <p>In the modern scenerio, our utmost focus should be on Digital Marketing. I have worked as a Digital marketer at Walsis India Pvt. Ltd.</p>
+        </div>
+      </div>
+
+      <div class="changelog" data-aos="fade-up" data-aos-duration="1000">
+      <div class="wrapper">
+        <h3 class="ttlh" data-aos="fade-up" data-aos-duration="1000">Job <span style="color:#33cccc;">Profile</span></h3>
+        <div class="red">
+        <div class="changelog__item">
+          <div class="changelog__meta">
+            <h4 class="ttl">OneIon Media & Softwares Pvt. Ltd</h4>
+            <small class="changelog__date">07/04/2019</small>
+          </div>
+          <div class="changelog__detail">
+            <ul>
+              <li>Content Writer</li>
+              <li>Social Media Manager</li>
+              <li>Graphic Designer</li>
+            </ul>
+          </div>
+        </div>  
+        <div class="changelog__item">
+          <div class="changelog__meta">
+            <h4 class="ttl">Walsis India Pvt. Ltd.</h4>
+            <small class="changelog__date">10/12/2017</small>
+          </div>
+          <div class="changelog__detail">
+            <ul>
+              <li>Content Writer/Blogger</li>
+              <li>Social Media Manager</li>
+              <li>Subject Matter Expert</li>
+              <li>SEO/SEM</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="changelog__item">
+          <div class="changelog__meta">
+            <h4 class="ttl">Freelancer.com</h4>
+            <small class="changelog__date">15/10/2015</small>
+          </div>
+          <div class="changelog__detail">
+            <ul>
+              <li>Logo Design</li>
+              <li>Graphic Banners</li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    
+      
+    </div>
+    <div class="changelog1"data-aos="fade-up" data-aos-duration="1000">
+      <div class="wrapper">
+        <h3 class="ttlh" data-aos="fade-up" data-aos-duration="1000">Educational <span style="color:#33cccc;">Qualification</span></h3>
+        <div class="red">
+          <div class="changelog__item">
+          <div class="changelog__meta">
+            <h4 class="ttl">NSTI, Dehradun</h4>
+            <small class="changelog__date">2019-21</small>
+          </div>
+          <div class="changelog__detail">
+            <ul>
+              <li>Advance Diploma in IT, Networking & Cloud computing.</li>
+              <li>Course being conducted IBM & MSDE.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="changelog__item">
+          <div class="changelog__meta">
+            <h4 class="ttl">BNMU</h4>
+            <small class="changelog__date">2016-19</small>
+          </div>
+          <div class="changelog__detail">
+            <ul>
+              <li>BSc. In Mathematics</li>
+              <li>Passed with 78% marks.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="changelog__item">
+          <div class="changelog__meta">
+            <h4 class="ttl">R.M College</h4>
+            <small class="changelog__date">2014-16</small>
+          </div>
+          <div class="changelog__detail">
+            <ul>
+              <li>Science (PCM) stream.</li>
+              <li>Passed with 75% marks.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="changelog__item">
+          <div class="changelog__meta">
+            <h4 class="ttl">St. Xavier's School</h4>
+            <small class="changelog__date">2008-14</small>
+          </div>
+          <div class="changelog__detail">
+            <ul>
+              <li>School Education at its shore high advantage.</li>
+              <li>Passed with 9.2 CGPA </li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    
+      
+    </div>
+
+    <div class="changelog2" data-aos="fade-up" data-aos-duration="1000">
+      <h3 class="ttlh" data-aos="fade-up" data-aos-duration="1000">Main <span style="color:#33cccc;">
+      Strength</span></h3>
+
+      <div class="strength">
+      <ul style="list-style-type: square;">
+        <li>Better <b>understanding of consumer mind</b> & deals  with them perfectly  with several linguistic pattern.
+</li>
+<br>
+<li>
+  Ability to motivate myself to <b>perform better</b> all the time.  
+</li>
+<br>
+<li>Versatile professional who <b>adapts</b> to changing environment rapidly. Possess excellent team participation skills. 
+</li>
+<br>
+<li>A systematic, <b>hardworking</b>, amiable and dedicated team player with analytical bend of mind.</li>
+<br>
+<li>Strong ability to match or detect the upcoming threats and its <b>better solution</b> as well. 
+</li>
+      </ul>
+      </div>
+    </div>
+
+    <div style="padding: 2em 0" data-aos="fade-up" data-aos-duration="1000">
+      <h3 class="ttlh" data-aos="fade-up" data-aos-duration="1000">Hobbies /
+<span style="color:#33cccc;">
+      Co-curricular Activities</span></h3>
+
+      <div class="strength">
+      <ul style="list-style-type: square;">
+        <li>
+          Blogging 
+</li>
+<br>
+<li>
+  SEO 
+
+</li>
+<br>
+<li>
+Music </li>
+<br>
+<li>Social media
+</li>
+<br>
+<li>Quora Answering
+</li>
+<br>
+<li>Pintrest writing
+</b> 
+</li>
+      </ul>
+      </div>
+    </div>
+
+    <div class="changelog2" data-aos="fade-up" data-aos-duration="1000">
+      <h3 class="ttlh" data-aos="fade-up" data-aos-duration="1000">Achievements
+<span style="color:#33cccc;">
+      </span></h3>
+
+      <div class="strength">
+      <ul style="list-style-type: square;">
+<li>At World skills (India) State level (Web Tech)</li>  <br>
+<li>Recognized as Superlearner by Edunet Foundation.</li><br>
+<li>2400+ hrs of Learning Track Record on IBM's Skillbuild.</li><br>
+<li>Rewarded Udemy Free Licence by IBM.</li><br>
+
+        <li>
+          Cracked NDA (written) twice.
+
+</li>
+<br>
+<li>
+  4 SSB's at NDA + NAVY (B TECH).
+ 
+
+</li>
+<br>
+<li>
+Cleared JEE MAIN 2017.
+</li>
+<br>
+<li>Left BHU BSc Math Honours.
+
+</li>
+<br>
+<li>1st position in CHILDREN SCHOOL ASSOCIATION 
+
+</li>
+<br>
+<li>2nd position in INTER SCHOOL CHESS TOURNAMENT  
+ </li>
+
+<br>
+<li>1st position in Silver Zone olympiad(Mathematics)- 2times
+
+</li>
+<br>
+
+<li>Best event manager for ANNUAL FUNCTION OF SCHOOL.
+
+</li>
+<br>
+<li>Time's 2006 "Person of the Year"
+
+</li>
+<br>
+      </ul>
+      </div>
+    </div>
+<div style="padding: 2em 0" data-aos="fade-up" data-aos-duration="1500">
+      <h3 class="ttlh" data-aos="fade-up" data-aos-duration="1000">Projects
+<span style="color:#33cccc;">
+    Done  </span></h3>
+
+      <div class="strength">
+      <ul style="list-style-type: square;">
+        <li>
+          <b>NSTI Dehradun Website</b> 
+          <ul>
+            <br>
+            <li>Made with HTML/CSS/Javascript</li>
+            <li>Working on Laravel Integration</li>
+            
+          </ul>
+</li>
+<br>
+<li>
+  <b>Easing Covid Vaccination Drive</b> 
+<ul>
+  <br>
+  <li>Made with HTML/CSS/Javascript</li>
+  <li>Data Visualization using python</li>
+</ul>
+</li>
+<br>
+<li>
+<b>Codex</b>  
+<ul>
+  <br>
+  <li>Made with HTML/CSS/PHP/Mysql</li>
+  <li>Cool User Interface</li>
+</ul>
+</li>
+
+
+      </ul>
+      </div>
+    </div>
+<div class="changelog2"data-aos="fade-up" data-aos-duration="1500">
+      <h3 class="ttlh" data-aos="fade-up" data-aos-duration="1000">Badges
+<span style="color:#33cccc;">
+
+
+      </span></h3>
+
+      <div class="strength1">
+
+
+
+<div class="maina">
+
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="images/badges/1.png" alt="Mountains" style="width:100%">
+      
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/badges/2.png" alt="Lights" style="width:100%">
+      
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/badges/3.png" alt="Nature" style="width:100%">
+      
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/badges/4.png" alt="Mountains" style="width:100%">
+      
+      
+    </div>
+  </div>
+  <div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="images/badges/5.png" alt="Mountains" style="width:100%">
+      
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/badges/6.png" alt="Lights" style="width:100%">
+      
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/badges/7.png" alt="Nature" style="width:100%">
+      
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/badges/8.png" alt="Mountains" style="width:100%">
+      
+      
+    </div>
+  </div>
+  <div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="images/badges/9.png" alt="Mountains" style="width:100%">
+      
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/badges/10.png" alt="Lights" style="width:100%">
+      
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/badges/11.png" alt="Nature" style="width:100%">
+      
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/badges/12.png" alt="Mountains" style="width:100%">
+      
+      
+    </div>
+  </div>
+  <div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="images/badges/13.png" alt="Mountains" style="width:100%">
+      
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/badges/14.png" alt="Lights" style="width:100%">
+      
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/badges/15.png" alt="Nature" style="width:100%">
+      
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/badges/16.png" alt="Mountains" style="width:100%">
+      
+      
+    </div>
+  </div>
+  <div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="images/badges/17.png" alt="Mountains" style="width:100%">
+      
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/badges/18.png" alt="Lights" style="width:100%">
+      
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/badges/19.png" alt="Nature" style="width:100%">
+      
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/badges/20.png" alt="Mountains" style="width:100%">
+      
+      
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+
+
+<!-- END maina -->
+</div>
+
+
+
+        
+      <!-- <ul style="list-style-type: square;">
+<li>Working in a Digital World: Professional Skills</li>  <br>
+<li>Explorations into Mindfulness</li><br>
+<li>Job Application Essentials</li><br>
+<li>Enterprise Design Thinking - Team Essentials for AI</li><br>
+
+<li>
+          Enterprise Design Thinking Practitioner
+
+
+
+</li>
+<br>
+<li>
+  Agile Explorer
+
+ 
+
+</li>
+<br>
+<li>
+Introduction To Data Analysis
+
+</li>
+<br>
+<li>IBM Cloud Essentials
+
+</li>
+<br>
+
+<li> 
+
+Cloud Core
+
+ 
+ 
+</li>
+<br>
+<li>Build your own chatbot
+
+
+</li>
+<br>
+<li>Hadoop foundations
+
+ </li>
+<br>
+<li>Data analysis with python
+ 
+
+</li>
+<br>
+<li>Python for data science
+
+
+</li>
+<br>
+<li>Machine learning with python
+
+</li>
+<br>
+<li>Big data foundation
+
+</li>
+<br>
+<li>Data visualization with python
+ 
+</li>
+<br>
+<li>Skill build customer engagement communication
+ </li>
+<br>
+<li>Job application essentials
+
+</li><br>
+<li>Skillbuid customer engagement problem solving</li><br>
+<li>Data science foundation level 1</li><br>
+<li>Cyber security fundamentals
+</li><br>
+<li>Skillsoft CompTIA A+: Basic Cable Types</li>
+ -->
+
+
+<br>
+      </ul>
+      </div>
+    </div>
+    
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>
